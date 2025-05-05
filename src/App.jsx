@@ -19,11 +19,11 @@ function ProfileCard({ photoProfile, name, address, waNumber, bestie }) {
       <hr className="my-4" />
 
       <div className="flex flex-col sm:flex-row gap-4">
-        <div className="flex gap-2 items-start">
+        <div className="flex gap-2 items-center">
           <img src="./data/image/address.svg" alt="address" className="w-5 h-5 mt-1" />
           <p className="text-sm break-words">{address}</p>
         </div>
-        <div className="flex gap-2 items-start">
+        <div className="flex gap-2 items-center">
           <img src="./data/image/whatsapp.svg" alt="whatsapp" className="w-5 h-5 mt-1" />
           <a
             href={`https://wa.me/${waNumber}`}
